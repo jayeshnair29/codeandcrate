@@ -9,7 +9,7 @@ comment: fales
 
 **Last Updated:** July 31, 2025
 
-The information provided by Code and Crate ("we," "us," or "our") on [https://codeandcrate.netlify.app/](https://codeandcrate.netlify.app/) (the "Site") is for general informational and educational purposes only. All information on the Site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+The information provided by Code and Crate ("we," "us," or "our") on this "Site" is for general informational and educational purposes only. All information on the Site is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
 
 ---
 
