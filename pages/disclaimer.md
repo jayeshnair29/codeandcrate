@@ -48,11 +48,3 @@ The Site may contain testimonials by users of our products and/or services. Thes
 We may update this Disclaimer from time to time. We will notify you of any changes by posting the new Disclaimer on this page. You are advised to review this Disclaimer periodically for any changes.
 
 ---
-
-## 6. Contact Us
-
-If you have any questions about this Disclaimer, please contact us at:
-[Your Contact Email Address - e.g., contact@codeandcrate.com]
-[Link to your Contact Page, if you create one]
-
----
