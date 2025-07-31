@@ -12,7 +12,3 @@ We believe that optimizing your life, whether through tangible goods or powerful
 Here, you'll find honest reviews, insightful guides, and curated recommendations designed to simplify your choices.
 
 Our mission is to empower you to shop smarter, leverage cutting-edge tools, and make decisions that truly enhance your everyday and digital world. Join us, and let's unlock greater efficiency and value, together.
-
-
-
-[Get it Here](https://codeandcrate.netlify.app/about/)
