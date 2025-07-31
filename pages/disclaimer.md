@@ -17,7 +17,7 @@ The information provided by Code and Crate ("we," "us," or "our") on this "Site"
 
 Code and Crate is a participant in various affiliate marketing programs designed to provide a means for sites to earn advertising fees by linking to products and services.
 
-* **Commissions:** This means that when you click on links to various merchants on this site and make a purchase, this can result in a commission that is credited to this site. Some affiliate programs and affiliations include, but are not limited to, Amazon Associates, [List other major affiliate programs if you want, e.g., ShareASale, CJ Affiliate, etc. - or keep it general].
+* **Commissions:** This means that when you click on links to various merchants on this site and make a purchase, this can result in a commission that is credited to this site. Some affiliate programs and affiliations include, but are not limited to, Amazon Associates, ShareASale, etc
 * **Cost to You:** Please note that we only recommend products or services that we have researched and genuinely believe will add value to our readers. Importantly, clicking on an affiliate link and making a purchase through it **does NOT cost you anything extra.** The commission comes from the merchant as a thank-you for the referral.
 * **Editorial Integrity:** Our editorial content is not influenced by advertisers or affiliate partnerships. We strive to provide honest opinions, findings, beliefs, or experiences on those topics or products.
 
