@@ -7,7 +7,7 @@ background: '/img/bg-index.jpg'
 <!-- Home Intro
 ================================================== -->
 {% if page.url == "/" %}
-<div class="rounded mb-5 hero">
+<div class="container rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
       <h1 class="font-weight-bold mb-4 serif-font">Decode Value. Unearth Excellence.</h1>
@@ -21,39 +21,43 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
-<div class="row">
-    <!-- Main Content -->
-    <div class="col-sm-8">
-        <!-- Featured Post -->
-        <section class="row">
-            {% for post in site.posts limit: 1 %}
-                {% if post.featured == true %}
+<div class="container mt-5">
+    <div class="row">
+        <!-- Main Content -->
+        <div class="col-sm-8">
+            <!-- Featured Post -->
+            <section class="row">
+                {% assign featured_posts = site.posts | where: "featured", true %}
+                {% if featured_posts.size > 0 %}
                     <div class="col-md-12 mb-5">
+                        {% assign post = featured_posts.first %}
                         {% include postbox.html %}
                     </div>
                 {% endif %}
-            {% endfor %}
-        </section>
-
-        <!-- Posts List -->
-        <div class="row">
-            {% for post in paginator.posts %}
-                <div class="col-md-6 mb-5">
-                    {% include postbox.html %}
-                </div>
-            {% endfor %}
+            </section>
+    
+            <!-- Posts List -->
+            <div class="row">
+                {% assign regular_posts = site.posts | where_exp: "item", "item.featured != true" %}
+                {% for post in regular_posts %}
+                    <div class="col-md-6 mb-5">
+                        {% include postbox.html %}
+                    </div>
+                {% endfor %}
+            </div>
+    
+            <!-- Pagination -->
+            <div class="bottompagination">
+                <span class="navigation" role="navigation">
+                    {% include pagination.html %}
+                </span>
+            </div>
         </div>
-
-        <!-- Pagination -->
-        <div class="bottompagination">
-            <span class="navigation" role="navigation">
-                {% include pagination.html %}
-            </span>
+    
+        <!-- Sidebar -->
+        <div class="col-sm-4">
+            {% include sidebar.html %}
         </div>
-    </div>
-
-    <!-- Sidebar -->
-    <div class="col-sm-4">
-        {% include sidebar.html %}
     </div>
 </div>
+
