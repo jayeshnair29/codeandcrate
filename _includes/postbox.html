@@ -1,8 +1,9 @@
 <!-- begin post -->
-<div class="card post-box">
+{% assign author = site.authors[post.author] %}
+<div class="card h-100">
     <a href="{{ post.url | relative_url }}">
         {% if post.image %}
-        <img class="rounded mb-4 post-box-image" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        <img class="rounded mb-4 card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:100%; height:200px; object-fit: cover;">
         {% endif %}
     </a>
     <div class="card-block">
