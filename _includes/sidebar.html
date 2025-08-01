@@ -21,12 +21,17 @@
         {% for post in featured_posts limit: 3 %}
         <li class="media mb-3 d-flex align-items-start">
           {% if post.image %}
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="width: 60px; height: 60px; object-fit: cover; margin-right: 10px; border-radius: 5px;">
+            <a href="{{ post.url | relative_url }}">
+              {% assign image_path = post.image %}
+              {% if page.url == "/" %}
+                <img src="{{ image_path | relative_url }}" alt="{{ post.title }}" style="width: 60px; height: 60px; object-fit: cover; margin-right: 10px; border-radius: 5px;">
+              {% else %}
+                <img src="{{ image_path | absolute_url }}" alt="{{ post.title }}" style="width: 60px; height: 60px; object-fit: cover; margin-right: 10px; border-radius: 5px;">
+              {% endif %}
             </a>
           {% endif %}
           <div>
-            <h6 class="mt-0 mb-1"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h6>
+            <h6 class="mt-0 mb-1"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>
             <small class="text-muted">{{ post.date | date: "%b %d, %Y" }}</small>
           </div>
         </li>
