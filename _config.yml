@@ -42,6 +42,10 @@ social:
   pinterest: https://in.pinterest.com/codeandcrate
   twitter: https://x.com/codeandcrate
 
+# Pagination
+paginate: 6 # The number of posts to show per page
+paginate_path: "/page:num/" # The path to the pagination pages
+
 # Plugins
 plugins: 
 - jekyll-paginate
