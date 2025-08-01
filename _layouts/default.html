@@ -27,7 +27,6 @@
   }
 </style>
   
-{% if jekyll.environment == "production" %}       
 <script async src="https://www.googletagmanager.com/gtag/js?id={{site.ganalytics}}"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -35,7 +34,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '{{site.ganalytics}}');
 </script>
-{% endif %}
   
 </head>  
     
@@ -103,16 +101,15 @@ gtag('config', '{{site.ganalytics}}');
     
 <main class="container">    
       <div class="row">
+        <div class="col-sm-8">
 
-       
+            {{ content }}
+
+        </div>
         <div class="col-sm-4">
             {% include sidebar.html %}
-            </div>
-    
-        
-
-      </div>
-
+        </div>
+        </div>
 </main>
 
 <footer class="footer container text-center">  
