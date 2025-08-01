@@ -1,10 +1,53 @@
-<div class="sidebar sticky-top">        
-    <div class="sidebar-section">
-        <h5><span>Newsletter</span></h5>
-        {% include newsletter.html %}
-    </div>
-    <div class="sidebar-section">
-        <h5><span>Your Ad Here</span></h5>
-        <img src="{{site.baseurl}}/assets/images/ad.png">
-    </div>
+<div class="card my-4">
+  <h5 class="card-header">Search</h5>
+  <div class="card-body">
+    <form action="{{site.baseurl}}/search">
+      <div class="input-group">
+        <input type="text" class="form-control" name="q" placeholder="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="submit">Go!</button>
+        </span>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="card my-4">
+  <h5 class="card-header">Featured Finds</h5>
+  <div class="card-body">
+    {% assign featured_posts = site.posts | where: "featured", true %}
+    {% if featured_posts.size > 0 %}
+      <ul class="list-unstyled mb-0">
+        {% for post in featured_posts limit: 3 %}
+        <li class="media mb-3 d-flex align-items-start">
+          {% if post.image %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+              <img src="{{ site.baseurl }}{{ post.image }}" class="mr-3" width="75" height="75" alt="{{ post.title }}">
+            </a>
+          {% endif %}
+          <div class="media-body pl-2">
+            <h6 class="mt-0 mb-1"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h6>
+            <small class="text-muted">{{ post.date | date: "%b %d, %Y" }}</small>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No featured posts yet. Check back soon!</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="card my-4">
+  <h5 class="card-header">Follow Us</h5>
+  <div class="card-body">
+    <ul class="list-inline mb-0">
+      {% if site.social.twitter %}
+      <li class="list-inline-item"><a target="_blank" href="{{site.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+      {% endif %}
+      {% if site.social.pinterest %}
+      <li class="list-inline-item"><a target="_blank" href="{{site.social.pinterest}}"><i class="fab fa-pinterest"></i></a></li>
+      {% endif %}
+    </ul>
+  </div>
 </div>
