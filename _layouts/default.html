@@ -38,12 +38,13 @@ gtag('config', '{{site.ganalytics}}');
           {% else %}
           <span class="d-none d-md-inline-block">{{ site.title }}</span>
           {% endif %}
-          </a> | 
+          </a>
+          <span class="navbar-text ml-3 d-none d-lg-inline-block">|</span>
           
 
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center ml-auto">
             
-            <span class="ml-3 text-muted small">Follow</span>
+            <span class="ml-3 text-muted small d-none d-md-inline-block">Follow</span>
 
             <a class="d-inline-block social-icon" target="_blank" href="{{site.social.twitter}}">
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -86,10 +87,10 @@ gtag('config', '{{site.ganalytics}}');
     </div>  
 
     
-<!-- Main container -->
 <main class="container">
     {{ content }}
 </main>
+
 
 <!-- Footer
 ================================================== -->    
