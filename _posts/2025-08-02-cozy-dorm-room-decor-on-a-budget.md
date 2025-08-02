@@ -2,9 +2,10 @@
 layout: post
 title: "5 Cozy Dorm Room Decor Finds on a Budget"
 author: sal
+featured: true
 date: '2025-08-02 11:07:00 +0530'
 image: assets/images/cover.png
-categories: Decor, College Life
+categories: Decor College Life
 ---
 
 Setting up your first dorm room is exciting, but making it feel like a cozy home away from home on a student budget can be a challenge. The key is to find versatile items that offer both style and function without breaking the bank.
