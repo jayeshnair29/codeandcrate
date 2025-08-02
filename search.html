@@ -3,34 +3,42 @@ layout: default
 title: Search
 ---
 
-<div class="mainheading">
-  <h1 class="posttitle">Search Results</h1>
+<div class="row">
+
+    <div class="col-sm-8">
+        <div class="mainheading">
+          <h1 class="posttitle">Search Results</h1>
+        </div>
+        
+        <div id="searchResults" class="article-post">
+          <p>Searching...</p>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>
+
 </div>
 
-<div id="searchResults" class="article-post">
-  <p>Searching...</p>
-</div>
 
 <script>
   // Simple Jekyll Search
   // https://github.com/karloespiritu/simple-jekyll-search
 
   (function() {
-    // Get the search query from the URL
     const params = new URLSearchParams(window.location.search);
     const query = params.get('q');
     const searchResultsContainer = document.getElementById('searchResults');
 
     if (!query) {
-      searchResultsContainer.innerHTML = '<p>Please enter a search term.</p>';
+      searchResultsContainer.innerHTML = '<p>Please enter a search term in the box to your right.</p>';
       return;
     }
 
-    // Fetch the search data
     fetch('{{ site.baseurl }}/search.json')
       .then(response => response.json())
       .then(data => {
-        // Filter posts based on the query
         const results = data.filter(post => {
           const title = post.title ? post.title.toLowerCase() : '';
           const content = post.content ? post.content.toLowerCase() : '';
@@ -38,11 +46,10 @@ title: Search
           return title.includes(lowerCaseQuery) || content.includes(lowerCaseQuery);
         });
 
-        // Display the results
-        searchResultsContainer.innerHTML = ''; // Clear the 'Searching...' text
+        searchResultsContainer.innerHTML = ''; 
 
         if (results.length > 0) {
-          searchResultsContainer.innerHTML = `<h3>Found ${results.length} result(s) for "${query}"</h3>`;
+          searchResultsContainer.innerHTML = `<h4 class="mb-4">Found ${results.length} result(s) for "${query}"</h4>`;
           const ul = document.createElement('ul');
           ul.className = 'list-unstyled';
 
@@ -50,7 +57,7 @@ title: Search
             const li = document.createElement('li');
             li.className = 'mb-4';
             li.innerHTML = `
-              <h4><a href="${post.url}">${post.title}</a></h4>
+              <h5><a href="${post.url}">${post.title}</a></h5>
               <p><small>${post.date}</small></p>
               <p>${post.content.substring(0, 150)}...</p>
             `;
@@ -58,7 +65,7 @@ title: Search
           });
           searchResultsContainer.appendChild(ul);
         } else {
-          searchResultsContainer.innerHTML = `<h3>No results found for "${query}"</h3><p>Please try a different search term.</p>`;
+          searchResultsContainer.innerHTML = `<h4>No results found for "${query}"</h4><p>Please try a different search term.</p>`;
         }
       })
       .catch(error => {
