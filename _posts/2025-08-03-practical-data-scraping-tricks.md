@@ -47,6 +47,8 @@ CSV files are lightweight, easy to create, and can be opened by virtually any sp
 
 Try these tricks on your next project and watch your data flow improve. 
 
+Disclosure: This post contains affiliate links
+
 <div class="text-center my-4">
 <a href="https://get.brightdata.com/p56d41a" class="btn btn-dark" target="_blank" rel="noopener sponsored">Learn More and Get Started with Bright Data</a>
 </div>
