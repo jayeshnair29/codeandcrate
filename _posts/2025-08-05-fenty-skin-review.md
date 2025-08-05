@@ -2,6 +2,7 @@
 layout: post
 title: "Fenty Skin Review: Rihanna’s Skincare Line for All Skin Types"
 author: sal
+featured: true
 date: '2025-08-05 15:06:00 +0530'
 image: assets/images/posts/fenty-skin-main.jpg
 categories: [Skincare, Beauty, Reviews]
