@@ -12,7 +12,7 @@ If you've been looking for an honest Fenty Skin review, you're in the right plac
 One thing that makes Fenty Skin stand out in the crowded skincare space is its commitment to clean, vegan, and gender-neutral skincare. It’s not just another celebrity skincare line — it’s a smart, minimal routine designed for real skin.
 
 <div class="text-center my-4">
-  <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-primary btn-lg" target="_blank" rel="noopener sponsored">Shop the Fenty Skin Collection Now</a>
+  <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-dark btn-lg" target="_blank" rel="noopener sponsored">Shop the Fenty Skin Collection Now</a>
 </div>
 
 ### **Why Fenty Skin Stands Out**
@@ -29,34 +29,25 @@ The brand is built on a philosophy of accessibility and effectiveness for everyo
 
 If you're wondering what to buy from Fenty Skin, here are the top-rated products that customers consistently love.
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 2rem; border-top: 1px solid #eee; padding-top: 2rem;">
-  <div style="flex: 1; min-width: 200px; margin-right: 1.5rem;">
-    <h4>1. Total Cleans’r Remove-It-All Cleanser</h4>
-    <p>This 2-in-1 cleanser and makeup remover is a fan favorite because it deeply cleanses and hydrates without stripping your skin's natural moisture.</p>
-    <p><small><em>Pro Tip: Search for "best gentle cleanser for oily skin" to see how it compares!</em></small></p>
-    <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-dark" target="_blank" rel="noopener sponsored">Shop the Cleanser</a>
-  </div>
-  <img src="{{ site.baseurl }}/assets/images/products/fenty-cleanser.jpg" alt="Fenty Skin Total Cleans’r Remove-It-All Cleanser" style="width: 200px; height: auto; border-radius: 8px; margin-top: 1rem;">
+<div style="border-top: 1px solid #eee; padding-top: 1.5rem; margin-top: 1.5rem;">
+  <h4>1. Total Cleans’r Remove-It-All Cleanser</h4>
+  <p>This 2-in-1 cleanser and makeup remover is a fan favorite because it deeply cleanses and hydrates without stripping your skin's natural moisture.</p>
+  <p><small><em>Pro Tip: Search for "best gentle cleanser for oily skin" to see how it compares!</em></small></p>
+  <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-dark" target="_blank" rel="noopener sponsored">Shop the Cleanser</a>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 2rem; border-top: 1px solid #eee; padding-top: 2rem;">
-  <div style="flex: 1; min-width: 200px; margin-right: 1.5rem;">
-    <h4>2. Fat Water Pore-Refining Toner Serum</h4>
-    <p>A true game-changer, this toner-serum hybrid combines niacinamide and other powerful ingredients to reduce oil, refine pores, and even out your skin tone for a natural glow.</p>
-    <p><small><em>Pro Tip: Search for "niacinamide toner for glowing skin" to find similar top-rated products.</em></small></p>
-    <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-dark" target="_blank" rel="noopener sponsored">Shop the Fat Water Toner</a>
-  </div>
-  <img src="{{ site.baseurl }}/assets/images/products/fenty-fat-water.jpg" alt="Fenty Skin Fat Water Pore-Refining Toner Serum" style="width: 200px; height: auto; border-radius: 8px; margin-top: 1rem;">
+<div style="border-top: 1px solid #eee; padding-top: 1.5rem; margin-top: 1.5rem;">
+  <h4>2. Fat Water Pore-Refining Toner Serum</h4>
+  <p>A true game-changer, this toner-serum hybrid combines niacinamide and other powerful ingredients to reduce oil, refine pores, and even out your skin tone for a natural glow.</p>
+  <p><small><em>Pro Tip: Search for "niacinamide toner for glowing skin" to find similar top-rated products.</em></small></p>
+  <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-dark" target="_blank" rel="noopener sponsored">Shop the Fat Water Toner</a>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 2rem; border-top: 1px solid #eee; padding-top: 2rem;">
-  <div style="flex: 1; min-width: 200px; margin-right: 1.5rem;">
-    <h4>3. Hydra Vizor Invisible Moisturizer + SPF 30</h4>
-    <p>A lightweight, invisible moisturizer with SPF 30 that provides essential sun protection without leaving a white cast. It works beautifully under makeup and is perfect for all skin tones.</p>
-    <p><small><em>Pro Tip: This is a top result for "moisturizer with sunscreen for all skin types."</em></small></p>
-    <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-dark" target="_blank" rel="noopener sponsored">Shop the Hydra Vizor SPF</a>
-  </div>
-  <img src="{{ site.baseurl }}/assets/images/products/fenty-hydra-vizor.jpg" alt="Fenty Skin Hydra Vizor Invisible Moisturizer SPF 30" style="width: 200px; height: auto; border-radius: 8px; margin-top: 1rem;">
+<div style="border-top: 1px solid #eee; padding-top: 1.5rem; margin-top: 1.5rem;">
+  <h4>3. Hydra Vizor Invisible Moisturizer + SPF 30</h4>
+  <p>A lightweight, invisible moisturizer with SPF 30 that provides essential sun protection without leaving a white cast. It works beautifully under makeup and is perfect for all skin tones.</p>
+  <p><small><em>Pro Tip: This is a top result for "moisturizer with sunscreen for all skin types."</em></small></p>
+  <a href="https://mavely.app.link/e/I2RzqPR6zVb" class="btn btn-dark" target="_blank" rel="noopener sponsored">Shop the Hydra Vizor SPF</a>
 </div>
 
 ---
