@@ -2,7 +2,7 @@
 layout: post
 title: "Fall 2025 Cozy Girl Picks: Aerie Must-Haves Under $40"
 author: sal
-date: '2025-08-05 19:50:00 +0530'
+date: '2025-08-05 20:57:00 +0530'
 image: assets/images/posts/aerie-fall-cozy.jpg
 categories: [Fashion, Style, Deals]
 ---
@@ -10,6 +10,10 @@ categories: [Fashion, Style, Deals]
 As the crisp fall air rolls in, so does the desire to build the perfect "cozy girl" wardrobe. If you're looking for pieces that blend ultimate comfort with effortless style, Aerie should be at the top of your list. From bralettes that feel like a second skin to leggings you'll want to live in, their collection is all about feeling good.
 
 Here are the Aerie must-haves we’re loving for Fall 2025—and the best part is, they're all under $40.
+
+<div class="text-center my-4">
+  <a href="https://mavely.app.link/e/fj6jyCcsAVb" class="btn btn-dark btn-lg" target="_blank" rel="noopener sponsored">Shop the Aerie Fall Collection</a>
+</div>
 
 ---
 
