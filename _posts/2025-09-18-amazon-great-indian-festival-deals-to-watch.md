@@ -61,7 +61,7 @@ This isn't just a list of random products; these are the deals I'm personally wa
   <div style="flex: 1; min-width: 200px; margin-right: 1.5rem;">
     With the festive season right around the corner, this is the perfect time to think about gifts. This Fossil watch is elegant, timeless, and with a sale price of <strong>Rs 8,307</strong>, it’s an affordable piece of luxury. It's a fantastic gifting option for Diwali or a birthday, and a great deal to snag during the sale.
     <div class="text-center my-4">
-      <a href="https://amzn.to/41Va7Mr" class="btn btn-dark" target="_blank" rel="noopener sponsored">Add to Cart on Amazon</a>
+      <a href="https://amzn.to/47L985f" class="btn btn-dark" target="_blank" rel="noopener sponsored">Add to Cart on Amazon</a>
     </div>
   </div>
   <img src="{{ site.baseurl }}/assets/images/products/great-indian-festival/fossil-rose-gold.jpg" alt="Fossil Rose Gold Watch" style="width: 200px; height: auto; border-radius: 8px; margin-top: 1rem;">
